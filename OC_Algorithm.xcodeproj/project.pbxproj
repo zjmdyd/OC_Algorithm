@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		663B813A1B93F02700541BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B81391B93F02700541BC3 /* main.m */; };
+		66EF1E311B9BDE8E00FC0E41 /* MathAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EF1E301B9BDE8E00FC0E41 /* MathAlgorithm.m */; };
+		66F6DB4C1B9700F70074597C /* StringAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6DB4B1B9700F70074597C /* StringAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		663B81361B93F02700541BC3 /* OC_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		663B81391B93F02700541BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66EF1E2F1B9BDE8E00FC0E41 /* MathAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathAlgorithm.h; sourceTree = "<group>"; };
+		66EF1E301B9BDE8E00FC0E41 /* MathAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathAlgorithm.m; sourceTree = "<group>"; };
+		66F6DB4A1B9700F70074597C /* StringAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringAlgorithm.h; sourceTree = "<group>"; };
+		66F6DB4B1B9700F70074597C /* StringAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringAlgorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				663B81391B93F02700541BC3 /* main.m */,
+				66F6DB4A1B9700F70074597C /* StringAlgorithm.h */,
+				66F6DB4B1B9700F70074597C /* StringAlgorithm.m */,
+				66EF1E2F1B9BDE8E00FC0E41 /* MathAlgorithm.h */,
+				66EF1E301B9BDE8E00FC0E41 /* MathAlgorithm.m */,
 			);
 			path = OC_Algorithm;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66EF1E311B9BDE8E00FC0E41 /* MathAlgorithm.m in Sources */,
+				66F6DB4C1B9700F70074597C /* StringAlgorithm.m in Sources */,
 				663B813A1B93F02700541BC3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +247,7 @@
 				663B813F1B93F02700541BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
